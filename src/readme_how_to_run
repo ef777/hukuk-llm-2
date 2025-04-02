@@ -1,0 +1,51 @@
+python src/legal_assistant.py --pdf_dir ./hukuk_belgeleri --models_dir ./models --cache_dir ./cache 
+
+
+ornek sorualr 
+Temel İş Hukuku Soruları: 
+
+"İş sözleşmemi işveren feshetti. Hangi durumlarda kıdem tazminatı alabilirim?" 
+
+"Yıllık izin hakkım kaç gündür ve nasıl hesaplanır?" 
+
+"Deneme süreli iş sözleşmesinde işten çıkarılırsam tazminat hakkım var mıdır?" 
+
+"İşveren mesai ücretlerimi ödemezse yasal haklarım nelerdir?" 
+
+"İhbar tazminatı ve kıdem tazminatı arasındaki farklar nelerdir?" 
+
+ 
+
+"İş yerinde mobbinge uğruyorum, hangi yasal yollara başvurabilirim?" 
+
+"Hamilelik durumunda işten çıkarılmam yasal mıdır? Haklarım nelerdir?" 
+
+"İş kazası geçirdim, işverenin sorumlulukları nelerdir?" 
+
+"Uzaktan çalışma sırasında fazla mesai ücreti talep edebilir miyim?" 
+
+"Hastalık nedeniyle işe gidemezsem, işveren iş sözleşmemi feshedebilir mi?" 
+
+İş Güvencesi ve Tazminat Soruları: 
+
+"İşten haksız yere çıkarıldım, işe iade davası açmak için ne kadar sürem var?" 
+
+"İşe iade davası kazanırsam ne tür haklar elde ederim?" 
+
+"İşyeri kapanırsa kıdem tazminatı hakkım devam eder mi?" 
+
+"İstifa edersem hangi durumlarda kıdem tazminatı alabilirim?" 
+
+"Geçici iş göremezlik ödeneği nasıl hesaplanır ve kimler yararlanabilir?" 
+
+Sendikal Haklar ve Toplu İş Hukuku: 
+
+"Sendikaya üye olmam durumunda işveren beni işten çıkarabilir mi?" 
+
+"Toplu iş sözleşmesinden kimler yararlanabilir?" 
+
+"Yasal grev nedir ve hangi durumlarda yapılabilir?" 
+
+"Sendikal tazminat nedir ve nasıl hesaplanır?" 
+
+"İşyeri sendika temsilcisinin yasal hakları ve güvenceleri nelerdir?" 

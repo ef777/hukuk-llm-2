@@ -1,0 +1,77 @@
+PS C:\Users\user\Documents\hukuk_asistani\hukuk_asistani> python src/legal_assistant_cuda2.py  --pdf_dir ./hukuk_belgeleri --models_dir ./models --cache_dir 
+./cache
+
+GPU Bilgileri:
+GPU: NVIDIA GeForce GTX 1050 Ti
+VRAM: 4.00 GB
+CUDA Sürümü: 12.1
+2025-03-31 02:00:37,530 - LegalAssistant - INFO - CUDA kullanılabilir: True
+2025-03-31 02:00:37,531 - LegalAssistant - INFO - GPU: NVIDIA GeForce GTX 1050 Ti   
+2025-03-31 02:00:37,531 - LegalAssistant - INFO - VRAM: 4.00 GB
+2025-03-31 02:00:37,532 - LegalAssistant - INFO - Sistem önbelleği hazır.
+2025-03-31 02:00:37,532 - LegalAssistant - INFO - Sistem başlatılıyor...
+2025-03-31 02:00:37,533 - LegalAssistant - INFO - Belgeler önbellekten yükleniyor...
+2025-03-31 02:00:37,543 - LegalAssistant - INFO - 135 belge önbellekten yüklendi.
+2025-03-31 02:00:37,543 - LegalAssistant - INFO - Belgeler parçalara bölünüyor...
+2025-03-31 02:00:37,566 - LegalAssistant - INFO - 781 parça oluşturuldu.
+2025-03-31 02:00:37,567 - LegalAssistant - INFO - Embedding modeli yükleniyor: sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2
+2025-03-31 02:00:37,567 - LegalAssistant - INFO - Embedding modeli cuda üzerinde çalışacak
+2025-03-31 02:00:37,569 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2
+2025-03-31 02:00:43,491 - LegalAssistant - INFO - Vektör veritabanı önbellekten yükleniyor...
+2025-03-31 02:00:43,497 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-03-31 02:00:43,720 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-03-31 02:00:43,729 - faiss - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-03-31 02:00:43,748 - LegalAssistant - INFO - Vektör veritabanı yüklendi.
+2025-03-31 02:00:43,749 - LegalAssistant - INFO - Model yükleniyor: ./models\mistral-7b-instruct-v0.2.Q4_K_M.gguf
+2025-03-31 02:00:43,927 - LegalAssistant - INFO - Sistem başlatıldı ve kullanıma hazır.
+
+==================================================
+Hukuki Asistan hazır! Sorularınızı sorabilirsiniz.
+Çıkmak için 'q' veya 'exit' yazın.
+==================================================
+
+
+Soru: işten kovuldum ve tazminatımı alamadım ne yapmam lazım
+2025-03-31 02:02:15,388 - LegalAssistant - INFO - Sorgu işleniyor: işten kovuldum ve tazminatımı alamadım ne yapmam lazım
+2025-03-31 02:02:15,388 - LegalAssistant - INFO - Sorgu analiz ediliyor: işten kovuldum ve tazminatımı alamadım ne yapmam lazım
+
+        Ana Konu: İşletme Hukukı
+        Spesifik Soru: Kullanıcının işten kovulduğunda ve tazminat alamadığında ne yapmaları düşünülmüştür?
+        Anahtar Kelimeler: işten kovuldu, tazminat alamadı, hukuk, çalışan hakları.
+        Belge Türleri: [İşletme Hukuku Anlaşmaları, Çalışan Hakları Kanunu, İşletme Hukuku Yasalarları]
+        
+        Kullanıcının işten kovulduğunda ve tazminat alamadığında, hukuki bir çözüm bulunabilir. Bu durumda, öncelikle çalışanın işten kovulduğuna ve tazminat alamadığına dair temel bilgiler sahip olmalıdır.
+        
+        Temel bilgilere göre, öncelikle çalışanın işten kovulduğunu ve bu durumda tazminat alamadığını belirlemelidir. Bu bilgi elde edilebilir şeklinde kişisel verilere ulaşmak, yararlı olabilen kaynaklar araması veya hukuki bir şekilde işletmeye bağlantı kurulması gibi yöntemlerden biri tercih edilebilir.
+        
+        Bu durumda, öncelikle çalışanın işten kovulduğunu ve bu durumda tazminat alamadığını belirlemelidir. Sonra, hukuki bir şekilde işletmeye bağlantı kurulması gibi yöntemlerden biri tercih edilebilir.
+        
+        Bu durumda, öncelikle çalışanın işten kovulduğunu ve bu durumda tazminat alamadığını belirlemelidir. Sonra, hukuki bir şekilde işletmeye bağlantı kurulması gibi yöntemlerden biri tercih edilebilir.
+        
+        Bu durumda, öncelikle çalışanın işten kovulduğunu ve bu durumda tazminat alamadığını belirlemelidir. Sonra, hukuki bir şekilde işletmeye bağlantı kurulması gibi yöntemlerden biri tercih edilebilir.
+        
+        Bu durumda, öncelikle çalışanın işten kovulduğunu ve bu durumda tazminat alamadığını belirlemelidir. Sonra, hukuki bir şekilde işletmeye bağlant2025-03-31 02:08:31,900 - LegalAssistant - INFO - Sorgu analizi: main_topic='İşletme Hukukı' specific_question='Kullanıcının işten kovulduğunda ve tazminat alamadığında ne yapmaları düşünülmüştür?' keywords=['işten kovuldu', 'tazminat alamadı', 'hukuk', 'çalışan hakları.'] document_types=['İşletme Hukuku Anlaşmaları', 'Çalışan Hakları Kanunu', 'İşletme Hukuku Yasalarları']
+2025-03-31 02:08:31,960 - LegalAssistant - INFO - Filtreli arama: işten kovuldum ve tazminatımı alamadım ne yapmam lazım, filtreler: {'document_type': ['İşletme Hukuku Anlaşmaları', 'Çalışan Hakları Kanunu', 'İşletme Hukuku Yasalarları']}
+2025-03-31 02:08:37,219 - LegalAssistant - INFO - Karma arama: işten kovuldum ve tazminatımı alamadım ne yapmam lazım
+2025-03-31 02:08:37,279 - LegalAssistant - INFO - Anahtar kelime araması: işten kovuldum ve tazminatımı alamadım ne yapmam lazım
+2025-03-31 02:08:37,554 - LegalAssistant - INFO - Semantik arama: işten kovuldum ve tazminatımı alamadım ne yapmam lazım
+2025-03-31 02:08:38,169 - LegalAssistant - INFO - 4 ilgili belge bulundu, getirme yöntemi: hybrid
+2025-03-31 02:08:38,169 - LegalAssistant - INFO - Cevap oluşturuluyor...
+İşten kovulduğunuzda, tazminatların alınmasına rağmen, işverenin sorumluluğu ve tazminat sürecindeki yasal hakları korur. Bu nedenle, işten kovulduğunuzda, tazminatların alınmasına rağmen, işverenin sorumluluğu ve tazminat sürecindeki yasal hakları korur. Bu nedenle, işten kovulduğunuzda, tazminatların alınmasına rağmen, size açıkça bildirilmemiş olsa da, işverenin sorumluluğu ve tazminat sürecindeki yasal hakları korur. Bu nedenle, işten kovulduğunuzda, tazminatların alınmasına rağmen, size açıkça bildirilmemiş olsa da, işverenin sorumluluğu ve tazminat sürecindeki yasal hakları korur. Bu nedenle, işten kovulduğunuzda, 
+tazminatların alınmasına rağmen, size açıkça bildirilmemiş olsa da, işverenin sorumluluğu ve tazminat sürecindeki yasal hakları korur. Bu nedenle, işten kovulduğunuzda, tazminatların alınmasına rağmen, size açıkça bildirilmemiş olsa da, işverenin sorumluluğu ve tazminat sürecindeki yasal hakları korur. Bu nedenle, işten kovulduğunuzda, tazminatların alınmasına rağmen, size açıkça bildirilmemiş olsa da, işverenin sorumluluğu ve tazminat sürecindeki yasal hakları korur. Bu nedenle, işten kovulduğunuzda, tazminatların alınmasına rağmen, size açıkça bildirilmemiş olsa da, işverenin sorumluluğu ve tazminat sürecindeki yasal hakları korur. Bu nedenle, işten kovulduğunuzda, tazminatların alınmasına rağmen, size açıkça bildirilmemiş olsa da, işverenin sorumluluğu ve tazminat sürecindeki yasal hakları korur. Bu nedenle, işten kovulduğunuzda, tazminatların alınmasına rağmen, size açıkça bildirilmemiş olsa da, işverenin sorumluluğu ve tazminat sürecindeki yasal hakları korur. Bu nedenle, işten kovulduğunuzda, tazminatların alın
+==================================================
+CEVAP:
+
+İşten kovulduğunuzda, tazminatların alınmasına rağmen, işverenin sorumluluğu ve tazminat sürecindeki yasal hakları korur. Bu nedenle, işten kovulduğunuzda, tazminatların alınmasına rağmen, işverenin sorumluluğu ve tazminat sürecindeki yasal hakları korur. Bu nedenle, işten kovulduğunuzda, tazminatların alınmasına rağmen, size açıkça bildirilmemiş olsa da, işverenin sorumluluğu ve tazminat sürecindeki yasal hakları korur. Bu nedenle, işten kovulduğunuzda, tazminatların alınmasına rağmen, size açıkça bildirilmemiş olsa da, işverenin sorumluluğu ve tazminat sürecindeki yasal hakları korur. Bu nedenle, işten kovulduğunuzda, 
+tazminatların alınmasına rağmen, size açıkça bildirilmemiş olsa da, işverenin sorumluluğu ve tazminat sürecindeki yasal hakları korur. Bu nedenle, işten kovulduğunuzda, tazminatların alınmasına rağmen, size açıkça bildirilmemiş olsa da, işverenin sorumluluğu ve tazminat sürecindeki yasal hakları korur. Bu nedenle, işten kovulduğunuzda, tazminatların alınmasına rağmen, size açıkça bildirilmemiş olsa da, işverenin sorumluluğu ve tazminat sürecindeki yasal hakları korur. Bu nedenle, işten kovulduğunuzda, tazminatların alınmasına rağmen, size açıkça bildirilmemiş olsa da, işverenin sorumluluğu ve tazminat sürecindeki yasal hakları korur. Bu nedenle, işten kovulduğunuzda, tazminatların alınmasına rağmen, size açıkça bildirilmemiş olsa da, işverenin sorumluluğu ve tazminat sürecindeki yasal hakları korur. Bu nedenle, işten kovulduğunuzda, tazminatların alınmasına rağmen, size açıkça bildirilmemiş olsa da, işverenin sorumluluğu ve tazminat sürecindeki yasal hakları korur. Bu nedenle, işten kovulduğunuzda, tazminatların alın
+
+--------------------------------------------------
+Güven skoru: 0.48
+Getirme yöntemi: hybrid
+
+Kaynaklar:
+1. 1.5.1475.pdf (Sayfa 1)
+2. 1.5.4857.pdf (Sayfa 21)
+3. 8049 (Sayfa 5)
+4. 8049 (Sayfa 14)
+==================================================

@@ -1,0 +1,114 @@
+PS C:\Users\user\Documents\hukuk_asistani\hukuk_asistani> python src/legal_assistant_cuda2.py  --pdf_dir ./hukuk_belgeleri --models_dir ./models --cache_dir 
+./cache
+
+GPU Bilgileri:
+GPU: NVIDIA GeForce GTX 1050 Ti
+VRAM: 4.00 GB
+CUDA Sürümü: 12.1
+2025-03-31 03:13:55,303 - LegalAssistant - INFO - CUDA kullanılabilir: True      
+2025-03-31 03:13:55,303 - LegalAssistant - INFO - GPU: NVIDIA GeForce GTX 1050 Ti
+2025-03-31 03:13:55,303 - LegalAssistant - INFO - VRAM: 4.00 GB
+2025-03-31 03:13:55,319 - LegalAssistant - INFO - Sistem önbelleği hazır.
+2025-03-31 03:13:55,319 - LegalAssistant - INFO - Sistem başlatılıyor...
+2025-03-31 03:13:55,319 - LegalAssistant - INFO - Belgeler önbellekten yükleniyor...
+2025-03-31 03:13:55,360 - LegalAssistant - INFO - 935 belge önbellekten yüklendi.
+2025-03-31 03:13:55,360 - LegalAssistant - INFO - Belgeler parçalara bölünüyor...
+2025-03-31 03:13:55,597 - LegalAssistant - INFO - 4451 parça oluşturuldu.
+2025-03-31 03:13:55,597 - LegalAssistant - INFO - Embedding modeli yükleniyor: sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2
+2025-03-31 03:13:55,597 - LegalAssistant - INFO - Embedding modeli cuda üzerinde çalışacak
+2025-03-31 03:13:55,613 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2
+2025-03-31 03:14:01,933 - LegalAssistant - INFO - Vektör veritabanı önbellekten yükleniyor...
+2025-03-31 03:14:01,960 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-03-31 03:14:02,049 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-03-31 03:14:02,069 - faiss - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-03-31 03:14:02,133 - LegalAssistant - INFO - Vektör veritabanı yüklendi.
+2025-03-31 03:14:02,133 - LegalAssistant - INFO - Model yükleniyor: ./models\mistral-7b-instruct-v0.2.Q4_K_M.gguf
+2025-03-31 03:14:05,390 - LegalAssistant - INFO - Sistem başlatıldı ve kullanıma hazır.
+
+==================================================
+Hukuki Asistan hazır! Sorularınızı sorabilirsiniz.
+Çıkmak için 'q' veya 'exit' yazın.
+==================================================
+
+
+Soru: yaralama suçunun cezası nedir
+2025-03-31 03:14:24,443 - LegalAssistant - INFO - Sorgu işleniyor: yaralama suçunun cezası nedir
+2025-03-31 03:14:24,443 - LegalAssistant - INFO - Sorgu analiz ediliyor: yaralama suçunun cezası nedir
+
+        Ana Konu: Yaralama Suçları
+        Spesifik Soru: Ceza Sistemi İle Ilgili Yaralama Suçunun Cezası Nedir?
+        Anahtar Kelimeler: yaralama suçları, ceza sistemleri, cezai hukuk.
+        Belge Türleri: [Yargıtay Kararları, Yasalar]
+        
+        Cevap:
+        
+        Yaralama suçunun cezasını belirlemek için yaralama suçlarına özgü hukuki kapsamları ve bu kapsamlarda bulunan hukuki normlarla ilgili bilgi şu şekilde verilebilir:
+        
+        Yaralama Suçlarının Hukuki Kapsamı:
+        
+        - Genel yaralama suçları (yaralama, zulmet, kuvvetlilik vb.)
+        - Özel yaralama suçları (seksual şiddetler, seksiz söz ve işaretler, seksist bir davranış gibi)
+        
+        Yaralama Suçlarının Hukuki Normları:
+        
+        - Türkiye Ceza Kodu (TCK), yaralama suçlarına özgü kapsamlarda bulunan hukuki normlarla ilgili bilgi şu şekilde verilebilir:
+            1. Yaralama Suçlarının Türkiye Ceza Koduna (TCK) Göreceği Hukuki Normlar:
+               - Madden 238, 240 ve 245'ten yararlanabilir. Bu maddelerde belirtilen cezaların bulunması durumunda, bu cezaların uygulandığı zaman kullanıcıya verilecek2025-03-31 03:18:14,172 - LegalAssistant - INFO - Sorgu analizi: main_topic='Yaralama Suçları' specific_question='Ceza Sistemi İle Ilgili Yaralama Suçunun Cezası Nedir?' keywords=['yaralama suçları', 'ceza sistemleri', 'cezai hukuk.'] document_types=['Yargıtay Kararları', 'Yasalar']
+2025-03-31 03:18:14,188 - LegalAssistant - INFO - Filtreli arama: yaralama suçunun cezası nedir, filtreler: {'document_type': ['Yargıtay Kararları', 'Yasalar']}
+2025-03-31 03:18:15,052 - LegalAssistant - INFO - Karma arama: yaralama suçunun cezası nedir
+2025-03-31 03:18:15,052 - LegalAssistant - INFO - Anahtar kelime araması: yaralama suçunun cezası nedir
+2025-03-31 03:18:15,102 - LegalAssistant - INFO - Semantik arama: yaralama suçunun cezası nedir
+2025-03-31 03:18:15,123 - LegalAssistant - INFO - 4 ilgili belge bulundu, getirme yöntemi: hybrid
+2025-03-31 03:18:15,124 - LegalAssistant - INFO - Cevap oluşturuluyor...
+İşlenmesi sırasında kasten yaralama suçuna ilişkin hükümler uygulanabilir. Bu hükümlere göre, kişinin altı aydan bir yıla kadar hapis cezası ile cezalandırılabilir.
+        
+        NOT:
+        Bu cevap, belgelerden elde edilmiştir. Kullanıcının sorusuna doğru bir cevap vermek istemiyoruz veya bilmemiz yoksa bu konuda hakkında bilgi sahibi olmayabiliriz. Bu nedenle, kullanıcının sorusuna dayalı olarak, doğru bir cevap veremiyoruz veya bilmemeyoruz.
+        
+        ÖNEMLİ:
+        Kasten yaralama suçunu işlenmesi sırasında kullanıcının hürriyetinin tahdit edilmesi durumunda, ayrıca cezaya hükmolunur.
+        
+        NOT:
+        Bu cevap, belgelerden elde edilmiştir. Kullanıcının sorusuna doğru bir cevap vermek istemiyoruz veya bilmemeyoruz.
+        
+        ÖNEMLİ:
+        Bu suçun işlenmesi sırasında kişilerin hürriyetinin tahdit edilmesi durumunda, ayrıca cezaya hükmolunur.
+        
+        NOT:
+        Bu cevap, belgelerden elde edilmiştir. Kullanıcının sorusuna doğru bir cevap vermek istemiyoruz veya bilmemeyoruz.
+        
+        ÖNEMLİ:
+        Bu suçun işlenmesi sırasında kişilerin
+==================================================
+CEVAP:
+
+İşlenmesi sırasında kasten yaralama suçuna ilişkin hükümler uygulanabilir. Bu hükümlere göre, kişinin altı aydan bir yıla kadar hapis cezası ile cezalandırılabilir.
+
+        NOT:
+        Bu cevap, belgelerden elde edilmiştir. Kullanıcının sorusuna doğru bir cevap vermek istemiyoruz veya bilmemiz yoksa bu konuda hakkında bilgi sahibi olmayabiliriz. Bu nedenle, kullanıcının sorusuna dayalı olarak, doğru bir cevap veremiyoruz veya bilmemeyoruz.
+
+        ÖNEMLİ:
+        Kasten yaralama suçunu işlenmesi sırasında kullanıcının hürriyetinin tahdit edilmesi durumunda, ayrıca cezaya hükmolunur.
+
+        NOT:
+        Bu cevap, belgelerden elde edilmiştir. Kullanıcının sorusuna doğru bir cevap vermek istemiyoruz veya bilmemeyoruz.
+
+        ÖNEMLİ:
+        Bu suçun işlenmesi sırasında kişilerin hürriyetinin tahdit edilmesi durumunda, ayrıca cezaya hükmolunur.
+
+        NOT:
+        Bu cevap, belgelerden elde edilmiştir. Kullanıcının sorusuna doğru bir cevap vermek istemiyoruz veya bilmemeyoruz.
+
+        ÖNEMLİ:
+        Bu suçun işlenmesi sırasında kişilerin
+
+--------------------------------------------------
+Güven skoru: 0.66
+Getirme yöntemi: hybrid
+
+Kaynaklar:
+1. 8965 (Sayfa 23)
+2. 8965 (Sayfa 53)
+3. 8965 (Sayfa 38)
+4. 8965 (Sayfa 10)
+==================================================

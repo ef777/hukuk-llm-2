@@ -1,0 +1,82 @@
+
+
+C:\Users\test\Documents\hukuk_asistani_yeni>python src/legal_assistant_cuda2.py --pdf_dir ./hukuk_belgeleri --models_dir ./models --cache_dir ./cache 
+
+GPU kullanılamıyor veya devre dışı bırakıldı. CPU kullanılacak.
+2025-04-02 09:37:52,488 - LegalAssistant - INFO - Sistem önbelleği hazır.
+2025-04-02 09:37:52,488 - LegalAssistant - INFO - Sistem başlatılıyor...
+2025-04-02 09:37:52,488 - LegalAssistant - INFO - Belgeler önbellekten yükleniyor...
+2025-04-02 09:37:52,534 - LegalAssistant - INFO - 935 belge önbellekten yüklendi.
+2025-04-02 09:37:52,535 - LegalAssistant - INFO - Belgeler parçalara bölünüyor...
+2025-04-02 09:37:52,662 - LegalAssistant - INFO - 4451 parça oluşturuldu.
+2025-04-02 09:37:52,663 - LegalAssistant - INFO - Embedding modeli yükleniyor: sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2
+2025-04-02 09:37:52,663 - LegalAssistant - INFO - Embedding modeli cpu üzerinde çalışacak
+2025-04-02 09:37:52,664 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2
+2025-04-02 09:37:57,544 - LegalAssistant - INFO - Vektör veritabanı önbellekten yükleniyor...
+2025-04-02 09:37:57,553 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-04-02 09:37:57,768 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-04-02 09:37:57,777 - faiss - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-04-02 09:37:57,843 - LegalAssistant - INFO - Vektör veritabanı yüklendi.
+2025-04-02 09:37:57,843 - LegalAssistant - INFO - Model yükleniyor: ./models\mistral-7b-instruct-v0.2.Q4_K_M.gguf
+llama_new_context_with_model: n_ctx_per_seq (4096) < n_ctx_train (32768) -- the full capacity of the model will not be utilized
+2025-04-02 09:38:00,755 - LegalAssistant - INFO - Sistem başlatıldı ve kullanıma hazır.
+
+==================================================
+Hukuki Asistan hazır! Sorularınızı sorabilirsiniz.
+Çıkmak için 'q' veya 'exit' yazın.
+==================================================
+
+
+Soru: İş sözleşmemi işveren feshetti. Hangi durumlarda kıdem tazminatı alabilirim?  
+2025-04-02 09:38:11,874 - LegalAssistant - INFO - Sorgu işleniyor: İş sözleşmemi işveren feshetti. Hangi durumlarda kıdem tazminatı alabilirim?
+2025-04-02 09:38:11,874 - LegalAssistant - INFO - Sorgu analiz ediliyor: İş sözleşmemi işveren feshetti. Hangi durumlarda kıdem tazminatı alabilirim?
+
+        Ana Konu: İş Sözleşmesi
+        
+        Spesifik Soru: Kıdem tazminatın hangi durumlarda uygundur?
+        
+        Anahtar Kelimeler: kıdem, tazminat, iş sözleşmesi.
+        
+        Belge Türleri: [Lütfen belgelerin veya yargıların konulduğu türlerini belirten lütfen bu bölüm boş bırakılmalıdır.]
+        
+        Kullanıcı sorgusuna cevap verilecek durumlarda kıdem tazminatı uygundur. Bu durumlar şunlarla aynıdır:
+        1. İş sözleşmesi içinde belirtilmiştir.
+        2. Kullanıcının hukuki sorusu, kıdem tazminatın uygulandığı durumlarda olan soruda cevap verilmektedir.
+        3. İş sözleşmesi içinde belirtilmemiştir veya belirtilemeyen bir hukuki konuda ilişkin olsa da, kıdem tazminatın uygulandığı durumlarda olan soruda cevap verilmektedir.
+        4. İş sözleşmesinde belirtilemeyen bir hukuki konuda ilişkin olsa da, kıdem tazminatın uygulandığı durumlarda olan soruda cevap verilmektedir.
+        5. İş sözleşmesinde belirtilemeyen bir hukuki konuda ilişkin olsa da, kıdem tazminatın uygulandığı durumlarda olan soruda cevap verilmekted2025-04-02 09:41:19,418 - LegalAssistant - INFO - Sorgu analizi: main_topic='İş Sözleşmesi' specific_question='Kıdem tazminatın hangi durumlarda uygundur?' keywords=['kıdem', 'tazminat', 'iş sözleşmesi.'] document_types=['Lütfen belgelerin veya yargıların konulduğu türlerini belirten lütfen bu bölüm boş bırakılmalıdır.']
+2025-04-02 09:41:19,428 - LegalAssistant - INFO - Filtreli arama: İş sözleşmemi işveren feshetti. Hangi durumlarda kıdem tazminatı alabilirim?, filtreler: {'document_type': ['Lütfen belgelerin veya yargıların konulduğu türlerini belirten lütfen bu bölüm boş bırakılmalıdır.']}
+2025-04-02 09:41:20,064 - LegalAssistant - INFO - Karma arama: İş sözleşmemi işveren feshetti. Hangi durumlarda kıdem tazminatı alabilirim?
+2025-04-02 09:41:20,064 - LegalAssistant - INFO - Anahtar kelime araması: İş sözleşmemi işveren feshetti. Hangi durumlarda kıdem tazminatı alabilirim?
+2025-04-02 09:41:20,177 - LegalAssistant - INFO - Semantik arama: İş sözleşmemi işveren feshetti. Hangi durumlarda kıdem tazminatı alabilirim?
+2025-04-02 09:41:20,206 - LegalAssistant - INFO - 4 ilgili belge bulundu, getirme yöntemi: hybrid
+2025-04-02 09:41:20,206 - LegalAssistant - INFO - Cevap oluşturuluyor...
+İş sözleşmesi işveren feshetti olduğunda, kıdem tazminatı alabilirsiniz şunlar:
+        1. Kısmen ya da tamamen yanlış veya hakkında bulamayabileceğiniz bir iş sözleşmesi olup, bu iş sözleşmesine bağlı olduğunuz tüm işlerin bitiminden önceki günlerde yapılan veya sonra yapılabilecek olanlar hakkında bulamayabileceğiz.
+        2. Kısmen ya da tamamen doğru, ama işverenin kendisinden daha fazla önem verdiği veya bu öneme bağlı olarak yapılan bir iş sözleşmesine dayalanmamaktadır.
+        3. Kısmen ya da tamamen doğru, ama kısmen ya da tamamen işverenin önermesinden daha fazla önem verdiği veya bu öneme bağlı olarak yapılan bir iş sözleşmesine dayalanmamaktadır.
+        4. Kısmen ya da tamamen doğru, ama kısmen ya da tamamen işverenin önermesinden daha fazla önem verdiği veya bu öneme bağlı olarak yapılan bir iş sözleşmesine dayalanmamaktadır.
+        5. Kısmen ya da tamamen doğru, ama kısmen ya da tamamen işverenin önermesinden daha fazla önem verdiği veya bu öneme bağlı olarak yapılan bir iş sözleşmesine dayalanmamaktadır.
+        6. Kısmen ya da tamamen do
+==================================================
+CEVAP:
+
+İş sözleşmesi işveren feshetti olduğunda, kıdem tazminatı alabilirsiniz şunlar:
+        1. Kısmen ya da tamamen yanlış veya hakkında bulamayabileceğiniz bir iş sözleşmesi olup, bu iş sözleşmesine bağlı olduğunuz tüm işlerin bitiminden önceki günlerde yapılan veya sonra yapılabilecek olanlar hakkında bulamayabileceğiz.
+        2. Kısmen ya da tamamen doğru, ama işverenin kendisinden daha fazla önem verdiği veya bu öneme bağlı olarak yapılan bir iş sözleşmesine dayalanmamaktadır.
+        3. Kısmen ya da tamamen doğru, ama kısmen ya da tamamen işverenin önermesinden daha fazla önem verdiği veya bu öneme bağlı olarak yapılan bir iş sözleşmesine dayalanmamaktadır.
+        4. Kısmen ya da tamamen doğru, ama kısmen ya da tamamen işverenin önermesinden daha fazla önem verdiği veya bu öneme bağlı olarak yapılan bir iş sözleşmesine dayalanmamaktadır.
+        5. Kısmen ya da tamamen doğru, ama kısmen ya da tamamen işverenin önermesinden daha fazla önem verdiği veya bu öneme bağlı olarak yapılan bir iş sözleşmesine dayalanmamaktadır.
+        6. Kısmen ya da tamamen do
+
+--------------------------------------------------
+Güven skoru: 0.66
+Getirme yöntemi: hybrid
+
+Kaynaklar:
+1. İş Hukuku.pdf (Sayfa 426)
+2. İş Hukuku.pdf (Sayfa 17)
+3. 8049 (Sayfa 10)
+4. İş Hukuku.pdf (Sayfa 94)
+==================================================
+

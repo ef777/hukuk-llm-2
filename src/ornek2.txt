@@ -1,0 +1,104 @@
+PS C:\Users\user\Documents\hukuk_asistani\hukuk_asistani> python src/legal_assistant_cuda2.py  --pdf_dir ./hukuk_belgeleri --models_dir ./models --cache_dir 
+./cache
+
+GPU Bilgileri:
+GPU: NVIDIA GeForce GTX 1050 Ti
+VRAM: 4.00 GB
+CUDA Sürümü: 12.1
+2025-03-31 02:28:49,434 - LegalAssistant - INFO - CUDA kullanılabilir: True
+2025-03-31 02:28:49,434 - LegalAssistant - INFO - GPU: NVIDIA GeForce GTX 1050 Ti   
+2025-03-31 02:28:49,434 - LegalAssistant - INFO - VRAM: 4.00 GB
+2025-03-31 02:28:49,434 - LegalAssistant - INFO - Sistem önbelleği hazır.
+2025-03-31 02:28:49,434 - LegalAssistant - INFO - Sistem başlatılıyor...
+2025-03-31 02:28:49,434 - LegalAssistant - INFO - Belgeler önbellekten yükleniyor...
+2025-03-31 02:28:49,471 - LegalAssistant - INFO - 935 belge önbellekten yüklendi.
+2025-03-31 02:28:49,471 - LegalAssistant - INFO - Belgeler parçalara bölünüyor...
+2025-03-31 02:28:49,601 - LegalAssistant - INFO - 4451 parça oluşturuldu.
+2025-03-31 02:28:49,602 - LegalAssistant - INFO - Embedding modeli yükleniyor: sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2
+2025-03-31 02:28:49,603 - LegalAssistant - INFO - Embedding modeli cuda üzerinde çalışacak
+2025-03-31 02:28:49,603 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2
+2025-03-31 02:28:55,631 - LegalAssistant - INFO - Vektör veritabanı önbellekten yükleniyor...
+2025-03-31 02:28:55,647 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-03-31 02:28:55,735 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-03-31 02:28:55,743 - faiss - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-03-31 02:28:55,806 - LegalAssistant - INFO - Vektör veritabanı yüklendi.
+2025-03-31 02:28:55,806 - LegalAssistant - INFO - Model yükleniyor: ./models\mistral-7b-instruct-v0.2.Q4_K_M.gguf
+2025-03-31 02:28:56,564 - LegalAssistant - INFO - Sistem başlatıldı ve kullanıma hazır.
+
+==================================================
+Hukuki Asistan hazır! Sorularınızı sorabilirsiniz.
+Çıkmak için 'q' veya 'exit' yazın.
+==================================================
+
+
+Soru: kasten yaralamada kaç yıl ceza alınır
+2025-03-31 02:29:14,263 - LegalAssistant - INFO - Sorgu işleniyor: kasten yaralamada kaç yıl ceza alınır
+2025-03-31 02:29:14,264 - LegalAssistant - INFO - Sorgu analiz ediliyor: kasten yaralamada kaç yıl ceza alınır
+
+        Örnek Çıktı:
+        
+        Ana Konu: Yasal Hukuki Sorunları
+        Spesifik Soru: Kasten yaralamada kaç yıl ceza alınır?
+        Anahtar Kelimeler: kasten, yaralaşma, cezai hakkı.
+        Belge Türleri: [yasal_hukuk]
+        -------------------------------
+        İlgili Yaslar ve Kararlar:
+        1- 2856 sayılı Ceza Kanunu (Ceza Kodu)
+        2- 3749 sayılı Ticaret Müşavirlik Kanunu (T.MÜŞ.)
+        3- 5099 sayılı Sosyal Güvenlik ve Sigortalar Kanunu (SOSG)
+        *Not: Bu yaslar sadece ilgili soruya odaklanmaktadır, ancak genel bir kaynak olabilirler.
+        -------------------------------
+        Kasten Yaralaşması ve Ceza Hakkına Ait Sorun:
+        1- İlgi çekici bir soru olduğundan, ilgili yaslar ve kararlar hakkında bilginiz varsa lütfen onay verin. Bu kullanıcının sorgusunu anlayabilmek için 
+bu şartlara uymalıyız:
+        2- Kasten yaralaşması ve ceza hakkına ait sorun, Ceza Kanununa (Ceza Kodu) göre analiz edilmelidir. Bu nedenle ilgili sürecin başlangıçta kullanacağımız yaslar ve kararlar hakkında bilginiz varsa lütfen onay verin:
+        3- Ceza Kanununa (Ceza Kodu) göre analiz edilmiştir. Bu nedenle ilgili sorguyla bağlantı bulmak için aşağıdaki yaslar ve kararlar hakkında bilginiz varsa lütfen onay verin:
+        1- 2856 sayılı Ceza Kanunu (Ceza Kodu)
+        2- 3749 sayılı Ticaret Müşavirlik Kanunu (T.MÜŞ.)
+        3- 5099 sayılı Sosyal Güvenlik ve Sigortalar Kanunu (SOSG)
+        *Not: Bu yaslar sadece ilgili soruya odaklanmaktadır, ancak genel bir kaynak olabilirler.
+        -------------------------------
+        Kasten Yaralaşması ve Ceza Hakkına Ait Sorun Analizi:
+        1- İlgi çekici soru olduğundan, ilgili yaslar hakkında bilginiz varsa lütfen onay verin. Bu nedenle kasten yaralaşması ve ceza hakkına ait sorun analizi içerisinde2025-03-31 02:35:28,672 - LegalAssistant - INFO - Sorgu analizi: main_topic='Yasal Hukuki Sorunları' specific_question='Kasten yaralamada kaç yıl ceza alınır?' keywords=['kasten', 'yaralaşma', 'cezai hakkı.'] document_types=['yasal_hukuk']
+2025-03-31 02:35:28,768 - LegalAssistant - INFO - Filtreli arama: kasten yaralamada kaç yıl ceza alınır, filtreler: {'document_type': ['yasal_hukuk']}
+2025-03-31 02:35:35,933 - LegalAssistant - INFO - Karma arama: kasten yaralamada kaç yıl ceza alınır
+2025-03-31 02:35:35,948 - LegalAssistant - INFO - Anahtar kelime araması: kasten yaralamada kaç yıl ceza alınır
+2025-03-31 02:35:37,456 - LegalAssistant - INFO - Semantik arama: kasten yaralamada kaç yıl ceza alınır
+2025-03-31 02:35:37,645 - LegalAssistant - INFO - 4 ilgili belge bulundu, getirme yöntemi: hybrid
+2025-03-31 02:35:37,645 - LegalAssistant - INFO - Cevap oluşturuluyor...
+İşte belgelerden önermiş olduğumuz bilgiyle cevap verebilirim. Kasten yaralama sonucunda ölüm meydana gelmişse, ağırlaştırılmış müebbet hapis cezasına hükmolunur (4). 
+        İçindeki bilgilerden gösterim yapmadan sadece belirtilen madde numarası ve içeriği verilmiştir. Bu nedenle, kasten yaralama sonucunda ölüm meydana gelmediğinde ne zaman ceza alacağını anlamazsak, bilgilerimizde belirtilememektedir (2). 
+        İşte bu noktada bulunan kasten yaralama sonucunda ölüm meydana gelmediğinde ne zaman ceza alacağını anlamazsak, bilgilerimizde belirtilememektedir (2). 
+        İşte bu noktada bulunan kasten yaralama sonucunda ölüm meydana gelmediğinde ne zaman ceza alacağını anlamazsak, bilgilerimizde belirtilememektedir (2). 
+        İşte bu noktada bulunan kasten yaralama sonucunda ölüm meydana gelmediğinde ne zaman ceza alacağını anlamazsak, bilgilerimizde belirtilememektedir (2). 
+        İşte bu noktada bulunan kasten yaralama sonucunda ölüm meydana gelmediğinde ne zaman ceza alacağını anlamazsak, bilgilerimizde belirtilememektedir (2). 
+        İşte bu noktada bulunan kasten yaralama sonucunda ölüm meydana gelmediğinde ne zaman ceza alacağını anlamazsak, bilgilerimizde belirtilememektedir (2). 
+        İşte bu noktada bulunan kasten yaralama sonucunda ölüm meydana gelmediğinde ne zaman ceza alacağını anlamazsak, bilgilerimizde belirtilememektedir (2). 
+        İşte bu noktada bulunan kasten yaralama sonucunda ölüm meydana gelmediğinde ne zaman ceza alacağını anlamazsak, bilgilerimizde belirtilememektedir (2). 
+        İşte bu noktada bulunan kasten yaralama sonucunda ölüm meydana gelmediğinde ne zaman ceza alacağını anlamazsak, bilgilerimizde belirtilememektedir (2). 
+        İşte bu noktada bulunan kasten yaralama sonucunda ölüm meydana gelmediğinde ne zaman ceza alacağını anlamazsak, bilgilerimizde belirtilememektedir (2). 
+==================================================
+CEVAP:
+
+İşte belgelerden önermiş olduğumuz bilgiyle cevap verebilirim. Kasten yaralama sonucunda ölüm meydana gelmişse, ağırlaştırılmış müebbet hapis cezasına hükmolunur (4).
+        İçindeki bilgilerden gösterim yapmadan sadece belirtilen madde numarası ve içeriği verilmiştir. Bu nedenle, kasten yaralama sonucunda ölüm meydana gelmediğinde ne zaman ceza alacağını anlamazsak, bilgilerimizde belirtilememektedir (2).
+        İşte bu noktada bulunan kasten yaralama sonucunda ölüm meydana gelmediğinde ne zaman ceza alacağını anlamazsak, bilgilerimizde belirtilememektedir (2).
+        İşte bu noktada bulunan kasten yaralama sonucunda ölüm meydana gelmediğinde ne zaman ceza alacağını anlamazsak, bilgilerimizde belirtilememektedir (2).
+        İşte bu noktada bulunan kasten yaralama sonucunda ölüm meydana gelmediğinde ne zaman ceza alacağını anlamazsak, bilgilerimizde belirtilememektedir (2).
+        İşte bu noktada bulunan kasten yaralama sonucunda ölüm meydana gelmediğinde ne zaman ceza alacağını anlamazsak, bilgilerimizde belirtilememektedir (2).
+        İşte bu noktada bulunan kasten yaralama sonucunda ölüm meydana gelmediğinde ne zaman ceza alacağını anlamazsak, bilgilerimizde belirtilememektedir (2).
+        İşte bu noktada bulunan kasten yaralama sonucunda ölüm meydana gelmediğinde ne zaman ceza alacağını anlamazsak, bilgilerimizde belirtilememektedir (2).
+        İşte bu noktada bulunan kasten yaralama sonucunda ölüm meydana gelmediğinde ne zaman ceza alacağını anlamazsak, bilgilerimizde belirtilememektedir (2).
+        İşte bu noktada bulunan kasten yaralama sonucunda ölüm meydana gelmediğinde ne zaman ceza alacağını anlamazsak, bilgilerimizde belirtilememektedir (2).
+        İşte bu noktada bulunan kasten yaralama sonucunda ölüm meydana gelmediğinde ne zaman ceza alacağını anlamazsak, bilgilerimizde belirtilememektedir (2).
+
+--------------------------------------------------
+Güven skoru: 0.61
+Getirme yöntemi: hybrid
+
+Kaynaklar:
+1. 8965 (Sayfa 23)
+2. 8965 (Sayfa 54)
+3. 8965 (Sayfa 24)
+4. 8965 (Sayfa 74)
+==================================================
